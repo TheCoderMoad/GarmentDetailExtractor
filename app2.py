@@ -4,13 +4,13 @@ import google.generativeai as genai
 from PIL import Image
 import io
 import re
-
+#
 # Configure the API key
-GOOGLE_API_KEY = 'YOUR API KEY'
+GOOGLE_API_KEY = 'Your api key'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the Gemini model
-model = genai.GenerativeModel('models/gemini-pro-vision')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # Function to process images and extract details
 def process_images(image_files):
