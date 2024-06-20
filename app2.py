@@ -6,7 +6,7 @@ import io
 import re
 
 # Configure the API key
-GOOGLE_API_KEY = 'AIzaSyDKCb7FIxAUjA6nIjYSB0oJa7FcH8OUs9s'
+GOOGLE_API_KEY = 'YOUR API KEY'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the Gemini model
